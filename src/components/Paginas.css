@@ -30,6 +30,7 @@ width: 45%;
 @media (max-width: 600px){
  .log{
     font-size: small;
+     flex-direction: column;
   }
 }
 
