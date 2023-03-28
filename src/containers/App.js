@@ -3,7 +3,6 @@ import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Nav from '../components/Nav.jsx';
 import Home from '../components/Home.jsx';
-import Menus from '../components/Menus.jsx';
 import Nosotros from "../components/Nosotros"
 import Paginas from '../components/Paginas';
 import InfoPago from '../components/InfoPago';
@@ -19,10 +18,6 @@ function App() {
       <Route exact path="/"> 
         <Home/>
         </Route>
-
-      <Route path="/menus">
-        <Menus/>
-      </Route> 
       
       <Route path="/nosotros"> 
         <Nosotros/>
