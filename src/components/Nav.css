@@ -9,10 +9,8 @@
     align-items: center; 
 }
 
-
 .btn{
     border: solid 1px white;
-    /* background-color: black; */
     color: azure;
     margin-bottom: 1px;
 }
@@ -21,4 +19,4 @@
         .nav, .btn{    
           font-size: x-small;
           }
-        }
+    }
