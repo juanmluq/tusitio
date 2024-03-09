@@ -2,11 +2,11 @@
 
 
 Iniciar
+
 Clona el repositorio y haz `npm install` y `npm start` en la carpeta raiz
 
 
 ya puedes usar la página!
-
 
 
 La app tiene 5 rutas:
