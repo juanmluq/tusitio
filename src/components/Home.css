@@ -6,12 +6,6 @@
   flex-direction: column;
 }
 
-@media(max-width: 550px){
-  .home{
-    font-size:x-small;
-    }
-}
-
 .but{
   position: fixed;
   right: 30px;
@@ -28,17 +22,7 @@
   justify-content: center;
   flex-direction: column;
   color: rgb(179, 193, 206);
-  /* background-color: #90449591; */
-  /* padding: 3%; */
 }
-
-/* .marca{
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: start;
-  width: 30%;
-} */
 
 .cajaDisp{
  display: flex;
@@ -49,14 +33,11 @@
  align-items: center;
  opacity: 0.9;
  border-bottom: groove 15px rgba(10, 131, 81, 0.664);
- /* border-bottom: groove 15px rgba(10, 131, 81, 0.664); */
-
 }
 
 .imgLog{
   width: 45%;
   height: 50%;
-  /* margin: 1%; */
   padding: 1%;
 }
 
@@ -65,7 +46,7 @@
   position: absolute;
   left: 37%;
   top: 2%;
-width: 25%;
+  width: 25%;
   /* margin: 1%; */
   padding: 1%;
   z-index: 999999;
@@ -76,15 +57,11 @@ width: 25%;
 }
 
 .imagens{
-  /* margin-top: -29%; */
   opacity: 0.7;
-  /* border-bottom: groove 15px white; */
   border: groove 15px rgba(10, 131, 81, 0.664);
-
 }
 
-
-  .texto {
+.texto {
     display: flex;
     position: relative;
     padding-left: 3%;
@@ -94,23 +71,7 @@ width: 25%;
     color: rgb(204, 172, 172);
     animation: 2s linear 0s infinite alternate rise ;
     font-family: Always Smile Normal
-  }
-
-
-
-  /* .subbienv{
-    display: flex;
-    position: relative;
-    align-items: center;
-    flex-direction: column;
-    border: outset;
-    border-radius: 20% / 10% 10%;
-    margin: 1%;
-    width: 25%;
-    padding: 1%;
-  } */
-
-
+}
 
 .cajaWeb{
     display: flex;
@@ -122,7 +83,7 @@ width: 25%;
     padding: 2%;
   }
 
-  .web{
+.web{
     display: flex;
     position: relative;
     justify-content: center;
@@ -130,14 +91,12 @@ width: 25%;
     width: 100%;
     margin: auto;
     /* animation: 10s linear 0s infinite alternate trasladarx ; */
-
-  }
+}
 
 .proyect{
     display:contents;
     position: relative;
     align-items: center;
-
 }
 
 .cajaPie{
@@ -159,8 +118,131 @@ width: 25%;
    flex-direction: column;
 }
 
+.slider {
+    position: relative;
+    /* margin-left: 10%; */
+}
 
-  @keyframes rise {
+.slides {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100vw;
+    flex-shrink: 0;
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+  .slides:hover .slide {
+    animation-play-state: paused;
+  }
+
+  .slide img {
+    width: 50%;
+    border: 8px groove white;
+    margin-left: 3%;
+    vertical-align: top;
+  }
+
+  .slide a {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+  }
+
+  .caption {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 8vw;
+    position: absolute;
+    bottom: 8vw;
+    right: 4vw;
+  }
+
+  .slide:target {
+    animation-name: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+  }
+
+  .slider-controler {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+  }
+
+  .slider-controler li {
+    /* margin: 0 0.5rem; */
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .slider-controler a {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+.caption {
+      font-size: 96px;
+      bottom: 96px;
+      right: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .slide {
+      width: 1200px;
+    }
+
+ @keyframes slide {
+        0% { transform: translateX(0); }
+        10% { transform: translateX(0); }
+
+        15% { transform: translateX(-100%); }
+        30% { transform: translateX(-100%); }
+
+        35% { transform: translateX(-200%); }
+        50% { transform: translateX(-200%); }
+
+        55% { transform: translateX(-300%); }
+        70% { transform: translateX(-300%); }
+
+        75% { transform: translateX(-400%); }
+        90% { transform: translateX(-400%); }
+
+        95% { transform: translateX(-500%); }
+        100% { transform: translateX(-500%); }
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+
+      .wrapper {
+         width: 70%;
+        margin-left: 20%;
+      }
+
+    @keyframes rise {
         from {
           transform: perspective(100px) translateZ(1px)
         }
@@ -178,88 +260,51 @@ width: 25%;
         }
       }
 
-
-  @media(max-width: 800px){
+            @media(max-width: 800px){
             .homeInterno{
               font-size:x-small;
               }
             }
+
             @media(max-width: 600px){
               .homeInterno{
                 flex-direction: column;
                 }
-              }
-              /* @media(max-width: 600px){
-                .subbienv{
-                  width: 90%;
-                  margin-left: 5%;
-                  }
-                } */
+            }
 
-
-  @media(max-width: 800px){
-              h2, h3{
-                font-size:x-large;
-              }
-              }
-
-  @media(max-width: 440px){
+            @media(max-width: 800px){
                 h2, h3{
-                  font-size:medium;
-                  }
+                  font-size:x-large;
                 }
-
-@media(max-width: 440px){
-                  h1{
-                    font-size: xx-large;
-                  }
-                }
-
-      @media(max-width: 550px) {
-                  .cajaPie{
-                    font-size: x-small;
-                  }
-                }
+            }
               
-
-
-
-                @keyframes slide {
-                  0% { transform: translateX(0); }
-                  10% { transform: translateX(0); }
-
-                  15% { transform: translateX(-100%); }
-                  30% { transform: translateX(-100%); }
-
-                  35% { transform: translateX(-200%); }
-                  50% { transform: translateX(-200%); }
-
-                  55% { transform: translateX(-300%); }
-                  70% { transform: translateX(-300%); }
-
-                  75% { transform: translateX(-400%); }
-                  90% { transform: translateX(-400%); }
-
-                  95% { transform: translateX(-500%); }
-                  100% { transform: translateX(-500%); }
+            @media(max-width: 440px){
+              h2, h3{
+                font-size:medium;
                 }
-
-                * { box-sizing: border-box; }
-
-                html { scroll-behavior: smooth; }
-
-
-                .wrapper {
-                  /* max-width: 1400px; */
-                   width: 70%;
-                  /*height: 25%;  */
-                  margin-left: 20%;
+              }
+              
+              @media(max-width: 440px){
+                h1{
+                  font-size: xx-large;
                 }
+              }
+              
+              @media(max-width: 550px) {
+                .cajaPie{
+                  font-size: x-small;
+                }
+              }
                 
-                @media (max-width: 750px){
+               @media (max-width: 750px){
                   .wrapper{
                     margin-left: 15%;
                   }
+                }
+                @media(max-width: 550px){
+                  .home{
+                    font-size:x-small;
+                    }
                 }
                 
                 @media (max-width: 550px){
@@ -270,102 +315,5 @@ width: 25%;
                 @media (max-width: 350px){
                   .wrapper{
                     margin-left: 6%;
-                  }
-                }
-
-                .slider {
-                  position: relative;
-                  /* margin-left: 10%; */
-                }
-
-
-                .slides {
-                  position: relative;
-                  display: flex;
-                  overflow: hidden;
-                }
-
-                .slide {
-                  display: flex;
-                  position: relative;
-                  justify-content: center;
-                  width: 100vw;
-                  flex-shrink: 0;
-                  animation-name: slide;
-                  animation-duration: 20s;
-                  animation-iteration-count: infinite;
-                  animation-timing-function: linear;
-                }
-
-                .slides:hover .slide {
-                  animation-play-state: paused;
-                }
-
-                .slide img {
-                  width: 50%;
-                  border: 8px groove white;
-                  margin-left: 3%;
-                  vertical-align: top;
-                }
-
-                .slide a {
-                  width: 100%;
-                  display: inline-block;
-                  position: relative;
-                }
-
-                .caption {
-                  color: white;
-                  text-shadow: 1px 1px black;
-                  font-size: 8vw;
-                  position: absolute;
-                  bottom: 8vw;
-                  right: 4vw;
-                }
-
-                .slide:target {
-                  animation-name: none;
-                  position: absolute;
-                  left: 0;
-                  top: 0;
-                  right: 0;
-                  bottom: 0;
-                  z-index: 50;
-                }
-
-                .slider-controler {
-                  position: absolute;
-                  left: 0;
-                  right: 0;
-                  bottom: 0;
-                  text-align: center;
-                  padding: 5px;
-                  background-color: rgba(0,0,0,0.5);
-                  z-index: 100;
-                }
-
-                .slider-controler li {
-                  /* margin: 0 0.5rem; */
-                  display: inline-block;
-                  vertical-align: top;
-                }
-
-                .slider-controler a {
-                  display: inline-block;
-                  vertical-align: top;
-                  text-decoration: none;
-                  color: white;
-                  font-size: 1.5rem;
-                }
-
-                @media only screen and (min-width: 1200px) {
-                  .slide {
-                    width: 1200px;
-                  }
-
-                  .caption {
-                    font-size: 96px;
-                    bottom: 96px;
-                    right: 50px;
                   }
                 }
