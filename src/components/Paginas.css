@@ -7,11 +7,11 @@
 }
 
 .details img {
-display: flex;
-position: relative;
-justify-content: center;
-align-items: center;
-width: 45%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
     height: 80%;
     margin: 5px;
     border: 3px solid rgb(26, 25, 25);
@@ -20,48 +20,11 @@ width: 45%;
 .logs{
   display: flex;
   position: relative;
-    justify-content: center;
+  justify-content: center;
 }
 
 .log{
   border: groove 3px rgba(0, 0, 0, 0.788);
-}
-
-@media (max-width: 600px){
- .log{
-    font-size: small;
-     flex-direction: column;
-  }
-}
-
-@media (max-width: 1100px){
-  .details img{
-    height: 70%;
-  }
-}
-
-@media (max-width: 900px){
-  .details img{
-    height: 60%;
-  }
-}
-
-@media (max-width: 600px){
-  .details img{
-    display: none;
-  }
-}
-
-@media (max-width: 700px){
-  .details {
-    font-size: small;
-  }
-}
-
-@media (max-width: 700px){
-  .details {
-    font-size: small;
-  }
 }
 
 .centrar{
@@ -75,7 +38,6 @@ width: 45%;
    display: flex; 
    flex-direction: column;
    position: relative;
-   /* align-items: center; */
    text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -83,22 +45,55 @@ width: 45%;
     box-shadow: inset 0 0 10px #000000;
     -moz-box-shadow: inset 0 0 10px #000000;
     -webkit-box-shadow: inset 0 0 10px #000000;
-
     border-radius: 7px;
     padding: 10px 20px 20px ;
     border: #c4c0c0 solid 1px;
     background-color: white;
-
   }
 
-  .imags{
+.imags{
     width: 80%;
     margin: auto;
-  }
-  .imagsDos{
+}
+.imagsDos{
     width: 80%;
     margin: auto;
-  border: groove 3px black;
+    border: groove 3px black;
 }
 
-  
+    @media (max-width: 1100px){
+      .details img{
+        height: 70%;
+      }
+    }
+    
+    @media (max-width: 900px){
+      .details img{
+        height: 60%;
+      }
+    }
+    
+    @media (max-width: 700px){
+      .details {
+        font-size: small;
+      }
+    }
+    
+    @media (max-width: 700px){
+      .details {
+        font-size: small;
+      }
+    }
+    
+    @media (max-width: 600px){
+     .log{
+        font-size: small;
+         flex-direction: column;
+      }
+    }
+    
+    @media (max-width: 600px){
+      .details img{
+        display: none;
+      }
+    }
