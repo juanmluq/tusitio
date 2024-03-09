@@ -1,7 +1,7 @@
 ##  Tu Sitio Web JML
 
 
-Iniciar
+Iniciar:
 
 Clona el repositorio y haz `npm install` y `npm start` en la carpeta raiz
 
