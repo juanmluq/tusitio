@@ -6,234 +6,232 @@ export default function Paginas(){
     return(
     <div>
       <div className="centrar">
-      <div className="pagin">
+        <div className="pagin">
             <h2>Paginas</h2>
             {/* <img src="https://images.ctfassets.net/hrltx12pl8hq/4ACnMj4WVSOZRZt0jHu9h5/1506f652bcd70f4dc3e88219fefea858/shutterstock_739595833-min.jpg?fit=fill&w=800&h=300" alt="" /> */}
             <br />
-              <h5>Creación de paginas</h5>
+            <h5>Creación de paginas</h5>
             <br />
             <br />
-          <div className="details">   
-          <img src="https://hostboost.com.br/wp-content/uploads/2022/05/432-4327195_the-easiest-way-to-build-landing-pages-for.png" alt="" />
-            <h7>
-            <h6> Landing Page </h6>
-                [GRATIS] SOPORTE INCLUIDO
-                <br />
-                [GRATIS] MANTENIMIENTO INCLUIDO
-                <br />
-                PÁGINA WEB DE 1 SECCION
-                <br />
-                BANNERS ANIMADOS
-                <br />
-                MAPA INTERACTIVO
-                <br />
-                DOMINIO
-                <br />
-                ADAPTABLE A DISPOSITIVOS
-                <br />
-                MAILS ILIMITADOS
-                <br />
-                10 IMAGENES
-                <br />
-                FORMULARIO DE CONTACTO
-                <br />
-                LINK A REDES SOCIALES
-            <br />
-            $10.000
+            <div className="details">   
+              <img src="https://hostboost.com.br/wp-content/uploads/2022/05/432-4327195_the-easiest-way-to-build-landing-pages-for.png" alt="" />
+              <h7>
+                <h6> Landing Page </h6>
+                  [GRATIS] SOPORTE INCLUIDO
+                  <br />
+                  [GRATIS] MANTENIMIENTO INCLUIDO
+                  <br />
+                  PÁGINA WEB DE 1 SECCION
+                  <br />
+                  BANNERS ANIMADOS
+                  <br />
+                  MAPA INTERACTIVO
+                  <br />
+                  DOMINIO
+                  <br />
+                  ADAPTABLE A DISPOSITIVOS
+                  <br />
+                  MAILS ILIMITADOS
+                  <br />
+                  10 IMAGENES
+                  <br />
+                  FORMULARIO DE CONTACTO
+                  <br />
+                  LINK A REDES SOCIALES
+              <br />
+              $10.000
             </h7>
             <br />
-            </div>
-            <br />
+          </div>
+          <br />
           <div className="details">
             <img src="https://www.avanzamas.cl/wp-content/uploads/2019/07/Patagonia-consulting.png" alt="" />
             <h7>
-            <h6> Basic </h6>
-                [GRATIS] SOPORTE INCLUIDO
-                <br />
-                [GRATIS] MANTENIMIENTO INCLUIDO
-                <br />
-                PÁGINA WEB DE 4 SECCIONES
-                <br />
-                BANNERS ANIMADOS
-                <br />
-                MAPA INTERACTIVO
-                <br />
-                DOMINIO
-                <br />
-                ADAPTABLE A DISPOSITIVOS
-                <br />
-                MAILS ILIMITADOS
-                <br />
-                20 IMAGENES
-                <br />
-                FORMULARIO DE CONTACTO
-                <br />
-                LINK A REDES SOCIALES
-            <br />
-            $20.000
+              <h6> Basic </h6>
+                  [GRATIS] SOPORTE INCLUIDO
+                  <br />
+                  [GRATIS] MANTENIMIENTO INCLUIDO
+                  <br />
+                  PÁGINA WEB DE 4 SECCIONES
+                  <br />
+                  BANNERS ANIMADOS
+                  <br />
+                  MAPA INTERACTIVO
+                  <br />
+                  DOMINIO
+                  <br />
+                  ADAPTABLE A DISPOSITIVOS
+                  <br />
+                  MAILS ILIMITADOS
+                  <br />
+                  20 IMAGENES
+                  <br />
+                  FORMULARIO DE CONTACTO
+                  <br />
+                  LINK A REDES SOCIALES
+              <br />
+              $20.000
             </h7>
-            </div>
+          </div>
             <br />
             <div className="details">
-            <img src="https://itec.media/wp-content/uploads/2017/12/landing-pages4.png" alt="" />
-            <h7>
-            <h6> Pro </h6>
-                [GRATIS] SOPORTE INCLUIDO
-                <br />
-                [GRATIS] MANTENIMIENTO INCLUIDO
-                <br />
-                PÁGINA WEB DE 6 SECCIONES
-                <br />
-                BANNERS ANIMADOS
-                <br />
-                MAPA INTERACTIVO
-                <br />
-                DOMINIO
-                <br />
-                ADAPTABLE A DISPOSITIVOS
-                <br />
-                MAILS ILIMITADOS
-                <br />
-                35 IMAGENES
-                <br />
-                FORMULARIO DE CONTACTO
-                <br />
-                LINK A REDES SOCIALES
-                <br />
-                VIDEO DE FONDO
-                <br />
-                CARRITO DE COMPRAS
-            <br />
-            $30.000
-            </h7>
+              <img src="https://itec.media/wp-content/uploads/2017/12/landing-pages4.png" alt="" />
+              <h7>
+                  <h6> Pro </h6>
+                  [GRATIS] SOPORTE INCLUIDO
+                  <br />
+                  [GRATIS] MANTENIMIENTO INCLUIDO
+                  <br />
+                  PÁGINA WEB DE 6 SECCIONES
+                  <br />
+                  BANNERS ANIMADOS
+                  <br />
+                  MAPA INTERACTIVO
+                  <br />
+                  DOMINIO
+                  <br />
+                  ADAPTABLE A DISPOSITIVOS
+                  <br />
+                  MAILS ILIMITADOS
+                  <br />
+                  35 IMAGENES
+                  <br />
+                  FORMULARIO DE CONTACTO
+                  <br />
+                  LINK A REDES SOCIALES
+                  <br />
+                  VIDEO DE FONDO
+                  <br />
+                  CARRITO DE COMPRAS
+                  <br />
+                  $30.000
+              </h7>
             </div>
             <br />
             <div className="details">
                 <img src="https://assets-global.website-files.com/5f4f67c5950db17954dd4f52/5f5b7f1a4426c3131ce24ea2_landing-page.jpeg" alt="" />
-            <h7>
-            <h6> Premium </h6>
-                [GRATIS] SOPORTE INCLUIDO
-                <br />
-                [GRATIS] MANTENIMIENTO INCLUIDO
-                <br />
-                PÁGINA WEB DE HASTA 10 SECCIONES
-                <br />
-                BANNERS ANIMADOS
-                <br />
-                MAPA INTERACTIVO
-                <br />
-                DOMINIO
-                <br />
-                ADAPTABLE A DISPOSITIVOS
-                <br />
-                MAILS ILIMITADOS
-                <br />
-                45 IMAGENES
-                <br />
-                FORMULARIO DE CONTACTO
-                <br />
-                LINK A REDES SOCIALES
-                <br />
-                VIDEO DE FONDO
-                <br />
-                TIENDA ONLINE O INSTITUCIONAL
-                <br />
-                CARRITO DE COMPRAS
-                <br />
-                {/* <img style={{width:"30px", height:"30px", border:"none"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc_KuvgD74Qgi9RlGowcNHI1872M8StOjgvQ&usqp=CAU" alt=""></img> */}
-                COBROS ONLINE
-                <br />
-                HASTA 20 PRODUCTOS
-            <br />
-            $40.000
-            </h7>
+                <h7>
+                    <h6> Premium </h6>
+                    [GRATIS] SOPORTE INCLUIDO
+                    <br />
+                    [GRATIS] MANTENIMIENTO INCLUIDO
+                    <br />
+                    PÁGINA WEB DE HASTA 10 SECCIONES
+                    <br />
+                    BANNERS ANIMADOS
+                    <br />
+                    MAPA INTERACTIVO
+                    <br />
+                    DOMINIO
+                    <br />
+                    ADAPTABLE A DISPOSITIVOS
+                    <br />
+                    MAILS ILIMITADOS
+                    <br />
+                    45 IMAGENES
+                    <br />
+                    FORMULARIO DE CONTACTO
+                    <br />
+                    LINK A REDES SOCIALES
+                    <br />
+                    VIDEO DE FONDO
+                    <br />
+                    TIENDA ONLINE O INSTITUCIONAL
+                    <br />
+                    CARRITO DE COMPRAS
+                    <br />
+                    {/* <img style={{width:"30px", height:"30px", border:"none"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc_KuvgD74Qgi9RlGowcNHI1872M8StOjgvQ&usqp=CAU" alt=""></img> */}
+                    COBROS ONLINE
+                    <br />
+                    HASTA 20 PRODUCTOS
+                    <br />
+                    $40.000
+                </h7>
             </div>
             <div className="details">
-            <h7>En todos los casos de ser solicitado se debe abonar mensualmente:
-              <br />
-              DOMINIO(opcional)
-              <br />
-              HOSTING(opcional)
-              <br />
-              CERTIFICADO SSL(opcional)
-              
-            </h7>
+              <h7>En todos los casos de ser solicitado se debe abonar mensualmente:
+                <br />
+                DOMINIO(opcional)
+                <br />
+                HOSTING(opcional)
+                <br />
+                CERTIFICADO SSL(opcional)
+              </h7>
             </div>
-        <br />
-        <br />
+            <br />
+            <br />
             <img className="imags" src="https://gerardgonzalez.com/wp-content/uploads/2020/09/diseno-de-logos.jpg" alt="logos" />
-        <div class="logs">
-        <div className="log">
-        <h6>Diseño Logo Basico</h6>
-        <h7>
-          Alta calidad
-          <br />
-          Uso en redes, uso general y sin fondo
-          <br />
-          1 propuesta
-          <br />
-          1 revisión sin cargo
-        </h7>
-        <br />
-        $4000
-        </div>
-        <br />
-        <div className="log">
-        <h6>Diseño Logo Basico</h6>
-        <h7>
-          Alta calidad
-          <br />
-          Uso en redes, uso general y sin fondo
-          <br />
-          3 propuestas
-          <br />
-          1 revisión sin cargo
-        </h7>
-        <br />
-        $5000
-        </div>
-        <br />
-        <div className="log">
-        <h6>Diseño Logo Premium</h6>
-        <h7>
-          Alta calidad
-          <br />
-          Formato jpg, png y vectorizado
-          <br />
-          Uso en redes, uso general y sin fondo
-          <br />
-          6 propuestas
-          <br />
-          2 revisiones sin cargo
-          <br />
-          Manual de aplicación básico
-        </h7>
-        <br />
-        $7000
-        </div>
-        </div>
-        <br />
-        <br />
-
-        <h5>Publicidad</h5>
-        <img className="imagsDos" src="https://www.hardnet.com.ar/resources/themes/default/images/servicios/publicidad-en-facebook.gif" alt="Publicidad Face" />
-        <h7>
-          Publicidad en GOOGLE
-          <br />
-          Estrategias de publicidad en facebook e instagram
-        </h7>
-        <br />
-        </div>
-        </div>
-                <div className='cajaPie'>
-          <a style={{ width:"auto"}} href="https://api.whatsapp.com/send?phone=1176351958">  
-            <div className='piePag'>
-              Whatsapp
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-              </svg>
+                <div class="logs">
+                    <div className="log">
+                      <h6>Diseño Logo Basico</h6>
+                      <h7>
+                        Alta calidad
+                        <br />
+                        Uso en redes, uso general y sin fondo
+                        <br />
+                        1 propuesta
+                        <br />
+                        1 revisión sin cargo
+                      </h7>
+                      <br />
+                      $4000
+                      </div>
+                      <br />
+                      <div className="log">
+                      <h6>Diseño Logo Basico</h6>
+                      <h7>
+                        Alta calidad
+                        <br />
+                        Uso en redes, uso general y sin fondo
+                        <br />
+                        3 propuestas
+                        <br />
+                        1 revisión sin cargo
+                      </h7>
+                      <br />
+                      $5000
+                    </div>
+                    <br />
+                    <div className="log">
+                      <h6>Diseño Logo Premium</h6>
+                      <h7>
+                        Alta calidad
+                        <br />
+                        Formato jpg, png y vectorizado
+                        <br />
+                        Uso en redes, uso general y sin fondo
+                        <br />
+                        6 propuestas
+                        <br />
+                        2 revisiones sin cargo
+                        <br />
+                        Manual de aplicación básico
+                      </h7>
+                      <br />
+                      $7000
+                    </div>
+                </div>
+                <br />
+                <br />
+                <h5>Publicidad</h5>
+                <img className="imagsDos" src="https://www.hardnet.com.ar/resources/themes/default/images/servicios/publicidad-en-facebook.gif" alt="Publicidad Face" />
+                <h7>
+                  Publicidad en GOOGLE
+                  <br />
+                  Estrategias de publicidad en facebook e instagram
+                </h7>
+                <br />
+              </div>
             </div>
-          </a>
+            <div className='cajaPie'>
+              <a style={{ width:"auto"}} href="https://api.whatsapp.com/send?phone=1176351958">  
+                <div className='piePag'>
+                  Whatsapp
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                  </svg>
+                </div>
+              </a>
           <div className='piePag'>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
               <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
