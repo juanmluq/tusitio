@@ -23,7 +23,7 @@ export default function Home() {
             </div>
           </a>
           <img className='imgDos' src={logo} alt="img logo" />
-          <img className='imagens' src="https://computerworldmexico.com.mx/wp-content/uploads/2021/02/Privacidad.jpg" alt="gif" />
+          <img className='imagens' src="https://64.media.tumblr.com/9b152fa2508925f00ea6de11527b14b5/tumblr_ne9amzRtfm1sp6e2vo1_1280.jpg" alt="gif" />
           <div className='homeInterno'>
               <div className='cajaDisp'>
                 <img className='imgLog' src="https://nubelab.com.ar/wp-content/uploads/2021/02/cel-desktop-a.jpg" alt="phone" />
