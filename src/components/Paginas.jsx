@@ -14,7 +14,7 @@ export default function Paginas(){
             <br />
             <br />
             <div className="details">   
-              <img src="https://hostboost.com.br/wp-content/uploads/2022/05/432-4327195_the-easiest-way-to-build-landing-pages-for.png" alt="" />
+              <img src="https://www.initcoms.com/wp-content/uploads/2020/01/presupuesto-landing-page-1.png" alt="" />
               <h7>
                 <h6> Landing Page </h6>
                   [GRATIS] SOPORTE INCLUIDO
